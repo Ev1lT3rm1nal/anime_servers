@@ -1,0 +1,20 @@
+name: anime_servers
+description: A starting point for Dart libraries or applications.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.0.5
+
+# Add regular dependencies here.
+dependencies:
+  animeflv:
+    git:
+      url: https://github.com/Ev1lT3rm1nal/animeflv.dart.git
+  beautiful_soup_dart: ^0.2.0
+  dio: ^4.0.6
+  # path: ^1.8.0
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.21.0
